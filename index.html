@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Lotus Product</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.gstatic.com">
  <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap" rel="stylesheet">
  <style>
@@ -12,20 +13,12 @@ body{
     width: fit-content;
     font-family: 'Cardo', serif;
     margin: 0px;
-    background-color:#f6f7fb
+    background-color:#f6f7fb;
+    color: #314b0c;
 }
 p ,ul{
     line-height: 30px;
     letter-spacing: 0.5px;
-}
-h2{
-    font-size: 2vw;
-}
-h1{
-    font-size: 2.5vw;
-}
-p,ul{
-    font-size: 1.3vw;
 }
 ul{
     padding-inline-start: 0px;
@@ -41,8 +34,6 @@ h1,h2{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    color: #314b0c;
-    background-color:#f6f7fb;
     padding-right: 45px;
     padding-left: 45px;
 }
@@ -54,8 +45,6 @@ h1,h2{
    padding-top: 40px;
    margin-left: auto;
    margin-right: auto;
-   color: #314b0c;
-   background-color:#f6f7fb;
    padding-left: 0px;
    padding-right: 0px;
    
@@ -65,8 +54,6 @@ h1,h2{
    padding-top: 40px;
    margin-left: auto;
    margin-right: auto;
-   color: #314b0c;
-   background-color:#f6f7fb;
    padding-left: 0px;
    padding-right: 0px;
 }
@@ -121,7 +108,8 @@ h1,h2{
 .right{
     padding: 0px 20px 0px 120px;
 }
-@media(max-width: 1100px){
+@media screen and (max-width: 1100px){
+    
 .head-img{
     width: 1315px;
 }
@@ -130,8 +118,6 @@ h1,h2{
     padding-top: 40px;
     margin-left: auto;
     margin-right: auto;
-    color: #314b0c;
-    background-color:#f6f7fb;
     padding-right: 45px;
     padding-left: 45px;
 }
@@ -140,8 +126,6 @@ h1,h2{
     padding-top: 40px;
     margin-left: auto;
     margin-right: auto;
-    color: #314b0c;
-    background-color:#f6f7fb;
     padding-right: 45px;
     padding-left: 45px;
 }
@@ -151,7 +135,7 @@ h1,h2{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    color: #314b0c;
+
 }
 table{
   padding-top: 40px;
@@ -207,7 +191,38 @@ table{
 }
 .init-3{
     padding: 0px;
-}}
+}
+@media screen and (max-width: 600px){
+    p,ul{
+        font-size: 30px;
+        line-height: 1.5;
+    }
+    h1{
+        font-size: 45px;
+    }
+    h2{
+        font-size: 37px;
+    }
+    td{
+        width: 100%;
+        display: block;
+    }
+    .third,.thirdd{
+        width: 100%;
+        height: 100%;
+    }
+    .left ,.right{
+    padding: 0px;}
+  .aaa{
+      padding: 0px;
+  }
+    
+}
+}
+
+
+
+
 
 
     
@@ -312,7 +327,7 @@ table{
                 <td class="top two" >
                     <div class="init-2">
                     <img src="https://s3.ap-south-1.amazonaws.com/static.lotus-organics.com/Dandruff+control+shampoo-12.jpg" alt="12" class="thirdd">
-                    <h2  class="underline-thin">Reduces Dandruff and<br> Controls Oil</h2>
+                    <h2  class="underline-thin">Reduces Dandruff and Controls Oil</h2>
                     <p>Regular usage can keep your scalp clean from grime and dead skin cells, keeping hair follicles
                          liberated from developing dandruff and excess oil, without making the scalp ‘dry’.</p></div>
                 </td>
